@@ -1,4 +1,4 @@
-import os,json,redis,httpagentparser
+import os,json,httpagentparser
 from flask import Flask,render_template,request
 
 app = Flask(__name__)
