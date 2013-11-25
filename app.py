@@ -25,7 +25,7 @@ def index():
     num = 30
 
     #redis.set('visitors', num)
-    return render_template('index.html', number=num)
+    return render_template('index.html', number=num, win_num=win_count, mac_num=mac_count )
 def process():
     print ('reading file')
     lines = file.readlines()
