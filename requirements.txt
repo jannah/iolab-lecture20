@@ -1,0 +1,3 @@
+Flask==0.10.1
+redis==2.8.0
+httpagentparser==1.5.1
